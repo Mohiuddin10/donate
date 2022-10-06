@@ -1,11 +1,14 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
 header {
     background-image: url("../images/donation13.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     padding: 100px;
     align-items: center;
-    margin: -10px;
-}
+    }
 h1{
     font-family: 'Open Sans', sans-serif;
     margin-top: 60px;
