@@ -6,12 +6,12 @@ header {
     background-image: url("../images/donation13.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
-    padding: 100px;
     align-items: center;
+    height: 100vh;
     }
 h1{
     font-family: 'Open Sans', sans-serif;
-    margin-top: 60px;
+    padding: 50px;
     color: azure;
     font-size: 80px;
     text-align: center;
@@ -20,18 +20,31 @@ h1{
 .header-text{
     color: azure;
     text-align: center;
-    padding-bottom: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 40px;
 }
 .donate-now {
     text-decoration: none;
     color: azure;
     border: 2px solid tomato;
-    padding: 10px;
-    margin: 10px;
+    padding: 20px 30px;
+    margin-top: 40px;
     background-image: linear-gradient(rgb(224, 119, 119)
     , tomato);
     border-radius: 10px;
-    box-shadow: 10px 10px 60px tomato;
+    box-shadow: 10px 10px 60px rgb(140, 99, 91);
+    font-size: 18px;
+}
+.donate-now:hover {
+    color: white;
+    text-shadow: 2px 2px 50px lightgray;
+    background-image: linear-gradient(gray, red);
+    font-weight: bold;
+    box-shadow: 7px 7pc 90px gray;
+    outline: black;
+    outline-style: double;
+
 }
 .text-area {
     align-items: center;
