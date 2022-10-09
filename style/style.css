@@ -50,18 +50,41 @@ h1{
     align-items: center;
     text-align: center;
 }
-
+.donation-description-cont {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.donation-image-cont {
+    width: 50%;
+}
+.donation-description-text {
+    width: 50%;
+}
 .donation-area {
     height: 80vh;
-    max-width: 60%;
-    margin-left: 25%;
     padding-top: 150px;
     align-items: center;
     text-align: center;
 }
+.donation-img {
+    width: 80%;
+    box-shadow: 10px 10px 60px rgb(214, 186, 116);
+    border-radius: 18px;
+}
 .donation-title {
     margin-bottom: 30px;
     text-shadow: 5px 30px 60px black;
+}
+.donate-plan-heading {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: 2px 2px 10px rgb(139, 127, 59);
+}
+.donate-plan div {
+    width: 25%;
+    height: auto;
 }
 .donation-description {
     margin: 20px;
@@ -103,6 +126,7 @@ hr {
 
 .donate-plan{
     display: flex;
+    justify-content: space-around;
     margin: 20px;
     padding: 20px;
 
