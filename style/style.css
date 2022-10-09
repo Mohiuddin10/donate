@@ -52,12 +52,21 @@ h1{
 }
 
 .donation-area {
-    height: auto;
+    height: 100vh;
     max-width: 60%;
     margin-left: 25%;
+    padding-top: 150px;
     align-items: center;
     text-align: center;
     /* margin-left: 200px; */
+}
+.donation-title {
+    margin-bottom: 30px;
+    text-shadow: 5px 30px 60px black;
+}
+.donation-description {
+    margin: 20px;
+    padding: 20px;
 }
 .donation-amount a{
     text-decoration: none;
@@ -71,33 +80,43 @@ h1{
 }
 .donation-amount a:hover {
     color: white;
-    border: 5px solid tomato;
-    border-radius: 12px;
-    font-weight: bold;
+    border: 1px solid tomato;
+    border-radius: 10px;
     background-image: linear-gradient(red, tomato);
+    box-shadow: 5px 5px 30px rgb(236, 148, 132);
 }
 h2{
     font-family: 'Open Sans', sans-serif;
     font-size: 30px;
 }
 .amount-input {
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 3px;
+    padding: 10px;
     text-decoration: none;
     border: 0px;
+    width: 40%;
 }
 hr {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 
 .donate-plan{
     display: flex;
+    margin: 20px;
+    padding: 20px;
 
+}
+.plan-headding {
+    margin: 20px;
+    padding: 20px;
 }
 
 .plan-section {
     align-items: center;
     text-align: center;
+    height: 100vh;
 }
 
 .donate-plan div {
@@ -106,6 +125,7 @@ hr {
     border-radius: 10px;
     text-align: left;
     box-shadow: 5px 5px 20px gray;
+    height: 200px;
 
 }
 
@@ -123,15 +143,23 @@ hr {
 
 .contribute-section {
     display: flex;
+    height: 100vh;
 }
 .contribute-data {
     align-items: center;
     text-align: left;
     width: 60%;
-    height: 80%;
     border: 1px solid black;
     margin: 10px;
     padding: 10px;
+}
+.contribute-heading {
+    text-shadow: 5px 5px 40px black;
+}
+.contribute-description {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    
 }
 .contribute-img img {
     max-width: 100%;
