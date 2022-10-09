@@ -139,7 +139,32 @@ hr {
 .Education {
     background-image: radial-gradient(#FFD580, #FAD5A5);
 }
-
+.about-us {
+    height: 100vh;
+    margin: 10px;
+    padding: 10px;
+}
+.about-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-img img{
+    width: 100%;
+    border-radius: 15px;
+    outline: gray;
+    outline-style: double;
+    box-shadow: 5px 5px 60px gray;
+}
+.about-description {
+    padding-left: 20px;
+    width: 80%;
+    margin-left: 30px;
+    align-items: center;
+}
+li {
+    list-style: none;
+}
 .contribute-section {
     display: flex;
     justify-content: space-evenly;
